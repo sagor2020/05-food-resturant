@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: "Poppins", sans-serif; */
+*{
+  margin: 0;
+  padding: 0;
+}
+#hero{
+  height: 852px;
+  background-image: linear-gradient(
+    180deg, 
+    rgb(16, 16, 16) -19.5%,
+    rgba(16, 16, 16, 0) 100%
+    ),url("../assets/ivana.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+#hero .hero-content{
+  width: 658px;
+}
+#hero .hero-content .subtitle{
+  color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+#hero .hero-content .title{
+  color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#hero .hero-content .description{
+  color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.8;
+  margin-bottom: 32px;
+}
+.btn-container{
+  text-align: center;
+}
+.btn{
+  color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 8px;
+  padding: 12px 18px 12px 18px;
+  background: rgb(82, 195, 3);
+  cursor: pointer;
+}
+#card-box{
+  width: 937px;
+  margin: 50px auto;
+}
+#card-box .title{
+  color: rgb(16, 16, 16);
+  font-family: "Poppins", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+#card-box .subtitle{
+  color: rgb(16, 16, 16);
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.8;
+}
+.card-container{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.card{
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.card .img-box{
+  width: 300px;
+}
+.card .img-box img{
+  width: 100%;
+}
+/* .card .shop{
+  color: rgb(16, 16, 16);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.card .upto{
+  color: rgb(16, 16, 16);
+  font-family: "Poppins", sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.card .information{
+  color: rgb(16, 16, 16);
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0%;
+  text-align: center;
+} */
